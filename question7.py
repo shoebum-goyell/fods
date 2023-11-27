@@ -10,8 +10,6 @@ def func_without_kernel(x,y):
     res = np.dot(fx, fy)
     print(res)
 
-
-
 def func_with_kernel(x,y):
     res = np.dot(x,y)
     print(res**2)
